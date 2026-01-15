@@ -3,10 +3,6 @@
 Welcome to my personal portfolio repository!
 This website is a curated showcase of my work, skills, and experience as a UI/UX Designer and Frontend Web Developer. It reflects my approach to creating clean, user-centric, and responsive digital experiences.
 
-🔗 Live Portfolio
-
-👉 View Live Website
-
 👩‍💻 About the Project
 
 This portfolio is designed and developed to represent my professional identity.
