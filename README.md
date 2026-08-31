@@ -2,6 +2,10 @@
 
 Personal portfolio website showcasing my front-end development, UI/UX design, testing, projects, and professional experience.
 
+# Live Link
+
+https://kashishguptaportfolio.netlify.app/
+
 ## About
 
 I am a Front-End Developer specializing in React.js, Next.js, and TypeScript, with experience in REST API testing using Postman and UI/UX design using Figma.
