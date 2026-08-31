@@ -132,7 +132,12 @@
         gap: 3rem;
     }
 
+    .project-info{
+        flex: 1;
+    }
+
     .carousel{
+        flex: 1;
         align-items: flex-end;
     }
 

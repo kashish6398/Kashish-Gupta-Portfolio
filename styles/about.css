@@ -221,18 +221,86 @@ aside h2 span{
     background: transparent;
 }
 
+.skills-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    overflow-y: auto;
+    max-height: 350px;
+    padding: 0.5rem;
+}
+
+.skills-categories::-webkit-scrollbar{
+    width: 5px;
+}
+
+.skills-categories::-webkit-scrollbar-thumb{
+    background: var(--green);
+    border-radius: 10px;
+}
+
+.skill-category{
+    background: var(--secondary);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 1.2rem;
+    transition: all 0.3s linear;
+}
+
+.skill-category:hover{
+    border-color: var(--green);
+    box-shadow: 0 0 10px rgba(124, 240, 61, 0.2);
+}
+
+.skill-category h3{
+    font-size: 1.2rem;
+    color: var(--green);
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.skill-category h3 i{
+    font-size: 1.4rem;
+}
+
+.skill-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.skill-tag{
+    background: var(--primary);
+    border: 1px solid var(--disabled);
+    color: var(--white);
+    padding: 0.45rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.skill-tag:hover{
+    border-color: var(--green);
+    color: var(--green);
+}
+
 @media screen and (width >= 768px){
     #about.content.active{
         grid-template-columns: repeat(7, 1fr);
-        gap: 3rem;
+        gap: 2.5rem;
     }
 
     .sidebar{
         grid-column: span 3;
+        max-width: 100%;
+        margin: 0;
     }
 
     .sidebar .tabs{
-        gap: 1.5rem;
+        gap: 1.2rem;
     }
 
     .tab-content.active{
@@ -242,41 +310,62 @@ aside h2 span{
     }
     
     aside h2{
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
     aside p{
-        font-size: 1.3rem;
-    }
-
-    .experience-box h3{
-        font-size: 1.5rem;
-    }
-
-    .company-name p{
         font-size: 1.2rem;
     }
 
+    .experience-box h3{
+        font-size: 1.4rem;
+    }
+
+    .company-name p{
+        font-size: 1.1rem;
+    }
+
     .experience-list{
-        max-height: 320px;
+        max-height: 350px;
     }
 
-    .skill-list{
-        grid-template-columns: repeat(3,1fr);
+    .skills-categories{
+        max-height: 350px;
     }
-
 }
 
 @media screen and (width >= 1024px) {
     #about.content.active{
-        gap: 5rem;
+        grid-template-columns: 1fr 1.35fr;
+        gap: 3.5rem;
+        width: 100%;
+    }
+
+    .sidebar{
+        grid-column: auto;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .tab-content.active{
+        grid-column: auto;
+        max-width: 100%;
     }
 
     .experience-box h3{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .experience-list{
+        max-height: 380px;
+    }
+
+    .skills-categories{
+        max-height: 380px;
+    }
+
+    #about-me .my-info {
+        max-width: 100%;
         max-height: 320px;
     }
 }

@@ -139,7 +139,7 @@ header{
 }
 
 @media screen and (width >= 1024px){
-    .main-comtaier{
+    .main-container{
         max-width: 950px;
     }
     header{
@@ -181,7 +181,7 @@ header{
 }
 
 @media screen and (width >= 1250 ){
-    .main-comtaier{
+    .main-container{
         max-width: 1200px;
     }
     .brand-info{

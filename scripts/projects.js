@@ -31,7 +31,7 @@ const designProjects = [
 const devProjects = [
   {
     number: "01",
-    title: "Hirred - Job Platform",
+    title: "Hirred – Full-Stack Job Platform",
     description:
       "Built a job platform with user and recruiter modules for job search, application tracking, and job posting.",
     tech: ["React.js", "Tailwind CSS", "Clerk", "Supabase"],
@@ -48,6 +48,15 @@ const devProjects = [
     image: "Assests/projects/project 5.png",
     githubLink: "https://github.com/kashish6398/aura-discover",
     demoLink: "https://aura-discover.vercel.app/"
+  },{
+    number: "03",
+    title: "UniRank– College Discovery Platform",
+    description:
+      "Built a college discovery platform with search, filtering, comparison, and bookmarking features for 50+ colleges.",
+    tech: ["Next.js", "React.js", "Tailwind CSS", "Typescript"],
+    image: "Assests/projects/project 6.png",
+    githubLink: "https://github.com/kashish6398/CollegeFinder",
+    demoLink: "https://college-finder-nu.vercel.app/"
   },
 ];
 

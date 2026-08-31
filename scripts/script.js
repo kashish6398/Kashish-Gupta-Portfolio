@@ -5,7 +5,7 @@ if(toggle){
     });
 }
 
-const words = ["Web Developer", "UI/UX Designer", "Coder"];
+const words = ["Software Developer", "Front End Developer", "UI/UX Designer"];
 
 const typingtext = document.getElementById('typing-span');
 
@@ -75,15 +75,25 @@ navlinks.forEach((link)=>{
             const serviceList = [{
                 id: 1,
                 icon: "ph-code",
-                text:"Web Development",
-                para: "I Build responsive and modern websites using the latest technologies like HTML, CSS, Javascript, React.",
+                text:"Frontend Development",
+                para: "I build responsive and modern web applications using React.js, Next.js, TypeScript, and Tailwind CSS.",
             },{
                 id: 2,
                 icon: "ph-paint-brush",
                 text:"UI/UX Designer",
                 para: "I design user-centric, visually appealing, and responsive UI/UX solutions that enhance usability, engagement, and overall digital experience.",
+            },{
+                id: 3,
+                icon: "ph-test-tube",
+                text:"API Testing",
+                para: "I test REST APIs using Postman to validate functionality, responses, and overall API reliability.",
+            },{
+                id: 4,
+                icon: "ph-robot",
+                text:"AI-Assisted Development",
+                para: "I use AI tools like ChatGPT, Claude, and Antigravity for development, debugging, research, and productivity.",
             }];
-            const services = document.getElementsByClassName("service-List");
+            const services = document.getElementsByClassName("service-list");
             
             const innerContent = serviceList.map((l) => {
                 return `
