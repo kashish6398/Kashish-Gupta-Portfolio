@@ -82,11 +82,11 @@ navlinks.forEach((link)=>{
                 icon: "ph-paint-brush",
                 text:"UI/UX Designer",
                 para: "I design user-centric, visually appealing, and responsive UI/UX solutions that enhance usability, engagement, and overall digital experience.",
-            },{
+                },{
                 id: 3,
-                icon: "ph-test-tube",
-                text:"API Testing",
-                para: "I test REST APIs using Postman to validate functionality, responses, and overall API reliability.",
+                icon: "ph-device-mobile", 
+                text:"Application developer",
+                para: "Cross-platform and responsive applications with a focus on clean UI, usability, and performance.",
             },{
                 id: 4,
                 icon: "ph-robot",
